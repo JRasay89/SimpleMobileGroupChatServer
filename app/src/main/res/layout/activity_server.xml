@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simple Mobile Group Chat Server"/>
+    <TextView
+        android:id="@+id/serverPortText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Server Port"/>
+    <TextView
+        android:id="@+id/serverIPAddressText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Server IP Adress"/>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/chatMessageText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello"/>
+
+            <TextView
+                android:id="@+id/numberOfUsersText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Number of users"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
